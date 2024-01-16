@@ -1,0 +1,34 @@
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  gap: 1em;
+  border-radius: 8px;
+  background-color: #1a1a1a;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);
+  min-width: 320px;
+}
+.loginForm div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+
+.loginForm input {
+  border-radius: 8px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid #7d80c0;
+}
+.loginForm input:focus,
+.loginForm input:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+  border-color: #646cff;
+}
+
+.loginForm button {
+  margin-top: 1em;
+  background-color: #646cff;
+}
