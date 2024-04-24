@@ -36,3 +36,9 @@
   margin-top: 1em;
   background-color: #646cff;
 }
+
+.textError {
+  color: #ff4d4d;
+  font-size: 0.8em;
+  align-self: flex-start;
+}
