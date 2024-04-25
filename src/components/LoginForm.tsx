@@ -1,7 +1,7 @@
 import { SubmitHandler, useForm } from "react-hook-form";
 import { z } from "zod";
-import classes from "./LoginForm.module.css";
 import { zodResolver } from "@hookform/resolvers/zod";
+import classes from "./LoginForm.module.css";
 
 // Define the schema validation for the form
 const schema = z.object({
